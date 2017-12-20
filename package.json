@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "https://github.com/Sofdesk/techtest-nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "body-parser": "^1.13.0",
+    "express": "^4.12.4",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.3.4",
+    "nodemon": "^1.12.1",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "dev": "nodemon index.js"
+  },
+  "author": "Sofdesk",
+  "license": "MIT"
+}
